@@ -1,0 +1,151 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    width: 1024px;
+    margin: 20px auto;
+}
+.header-top{
+    width: 100%;
+    height: 50px;
+    background-color: #162028;
+    display: block;
+    position: relative;
+}
+.header-nav{
+    position: absolute;
+    top: -1px;
+    right: 4%;
+    height: 100%;
+    display: inline-block;
+}
+.header-nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.header-nav a:hover{
+    color: #6f8597;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: inherit;
+}
+.logo{
+    display: inline-block;
+    position: relative;
+    left: 15%;
+    top: 10px;
+}
+.portifolio{
+    padding: 50px 100px 50px 100px;
+    text-align: center;
+}
+.portifolio h1{
+    font-size: 36px;
+    color: #252525;
+}
+.portifolio p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+/*Gallery*/
+
+section .gallery{
+    padding: 0px 100px 50px 100px;
+}
+article .gallery{
+    width: 32%;
+    float: left;
+    text-align: center;
+    display: flex;
+}
+.modelos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.title{
+    display: inline-block;
+}
+.gallery-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #252525;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.gallery-text{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+/*about*/
+
+.about{
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(../assets/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.about h2{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 36px;
+    margin-top: 5px;
+    font-weight: normal;
+}
+.about p{
+    line-height: 1.5;
+    width: 70%;
+}
+
+/*Contact*/
+
+#contact{
+    margin: 35px 0 30px 0px;
+}
+#contact address{
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Map-google*/
+
+.map-google iframe{
+    width: 100%;
+    margin-top: 15px;
+    height: 450px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #0b171f;
+    padding: 10px;
+    font-size: 15px;
+    color: #6f8597;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
